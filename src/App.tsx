@@ -100,8 +100,7 @@ function OctagonCore() {
       <span className="reactor-depth-glint"/>
       <span className="reactor-center">
   <img
-    src="/images/avatar.jpg"
-    alt="Ảnh cá nhân"
+    src={`${import.meta.env.BASE_URL}images/avatar.jpg`}
     className="reactor-avatar"
   />
 </span>

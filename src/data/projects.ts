@@ -29,7 +29,7 @@ export const projects: Project[] = [
     tags: ['Python','PyQt5','TCP Socket','SQLite','SHA-256'],
     description: 'A desktop client–server file transfer application with a graphical interface, transfer controls, and file-integrity checks. My role covered development of the application.',
     highlights: ['Desktop GUI with PyQt5', 'Client/server file-transfer workflow', 'Transfer management and file integrity'],
-    githubUrl: '', demoUrl: '', demoVideo: '/videos/uplower.mp4', image: '',
+    githubUrl: '', demoUrl: '', demoVideo: `${import.meta.env.BASE_URL}videos/uplower.mp4`, image: '',
   },
   {
     id: 2, title: 'FEPA', subtitle: 'Personal finance management frontend',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     tags: ['Frontend','UI Development','Personal Finance'],
     description: 'FEPA is a personal finance management application. My personal contribution focused on frontend interface development; backend and database work are not claimed as my role.',
     highlights: ['Frontend interface development for FEPA', 'User-facing personal finance management screens', 'Working with the team on frontend integration'],
-    githubUrl: '', demoUrl: '', demoVideo: '/videos/fepa.mp4', image: '',
+    githubUrl: '', demoUrl: '', demoVideo: `${import.meta.env.BASE_URL}videos/fepa.mp4`, image: '',
   },
   {
     id: 3, title: 'Course Registration', subtitle: 'Academic data management',
@@ -47,6 +47,6 @@ export const projects: Project[] = [
     tags: ['MySQL','SQL','ERD','Relational Database'],
     description: 'A student course-registration management platform. My personal responsibility was database development, not the React interface or Express APIs built by the team.',
     highlights: ['Relational database design for academic data', 'SQL structures supporting course registration', 'Collaboration with the full-stack team'],
-    githubUrl: '', demoUrl: '', demoVideo: '/videos/student-course.mp4', image: '',
+    githubUrl: '', demoUrl: '', demoVideo: `${import.meta.env.BASE_URL}videos/student-course.mp4`, image: '',
   }
 ]
