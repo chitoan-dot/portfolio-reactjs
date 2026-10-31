@@ -1,0 +1,52 @@
+/** Project cards. Replace empty URLs with your OWN repositories or live demos only. */
+export type ProjectCategory = 'Backend' | 'Database' | 'Frontend' | 'Software' | 'AI'
+export type Project = {
+  id: number
+  title: string
+  subtitle: string
+  category: ProjectCategory
+  role: string
+  status: string
+  statusColor: string
+  label: string
+  accent: string
+  colSpan: string
+  tags: string[]
+  description: string
+  highlights: string[]
+  githubUrl: string
+  demoUrl: string
+  /** Put your real video inside public/videos/, e.g. /videos/uplower.mp4 */
+  demoVideo?: string
+  image: string
+}
+
+export const projects: Project[] = [
+  {
+    id: 1, title: 'UPLOWER', subtitle: 'Desktop file-transfer system',
+    category: 'Software', role: 'Full Application Development', status: 'Academic project', statusColor: '#22d3ee',
+    label: 'CLIENT–SERVER', accent: '#22d3ee', colSpan: 'col-span-12 lg:col-span-7',
+    tags: ['Python','PyQt5','TCP Socket','SQLite','SHA-256'],
+    description: 'A desktop client–server file transfer application with a graphical interface, transfer controls, and file-integrity checks. My role covered development of the application.',
+    highlights: ['Desktop GUI with PyQt5', 'Client/server file-transfer workflow', 'Transfer management and file integrity'],
+    githubUrl: '', demoUrl: '', demoVideo: '/videos/uplower.mp4', image: '',
+  },
+  {
+    id: 2, title: 'FEPA', subtitle: 'Personal finance management frontend',
+    category: 'Frontend', role: 'Frontend Developer', status: 'Academic project', statusColor: '#22d3ee',
+    label: 'FRONTEND', accent: '#a78bfa', colSpan: 'col-span-12 lg:col-span-5',
+    tags: ['Frontend','UI Development','Personal Finance'],
+    description: 'FEPA is a personal finance management application. My personal contribution focused on frontend interface development; backend and database work are not claimed as my role.',
+    highlights: ['Frontend interface development for FEPA', 'User-facing personal finance management screens', 'Working with the team on frontend integration'],
+    githubUrl: '', demoUrl: '', demoVideo: '/videos/fepa.mp4', image: '',
+  },
+  {
+    id: 3, title: 'Course Registration', subtitle: 'Academic data management',
+    category: 'Database', role: 'Database Developer', status: 'Academic project', statusColor: '#22d3ee',
+    label: 'DATABASE', accent: '#10b981', colSpan: 'col-span-12',
+    tags: ['MySQL','SQL','ERD','Relational Database'],
+    description: 'A student course-registration management platform. My personal responsibility was database development, not the React interface or Express APIs built by the team.',
+    highlights: ['Relational database design for academic data', 'SQL structures supporting course registration', 'Collaboration with the full-stack team'],
+    githubUrl: '', demoUrl: '', demoVideo: '/videos/student-course.mp4', image: '',
+  }
+]
