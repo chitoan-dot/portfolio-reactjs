@@ -86,7 +86,7 @@ function OctagonCore() {
       <path className="reactor-route reactor-route-magenta" d="M33 275 H100 L161 215 M618 275 H552 L491 215 M165 462 H203 M485 462 H448"/>
       <circle className="circuit-node" cx="155" cy="110" r="3"/><circle className="circuit-node" cx="505" cy="110" r="3"/><circle className="circuit-node" cx="150" cy="467" r="3"/><circle className="circuit-node" cx="503" cy="467" r="3"/>
     </svg>
-    <button className="reactor-unit" type="button" onClick={()=>setPowered(v=>!v)} aria-pressed={powered} title="Bật/tắt năng lượng neon">
+    <button className="reactor-unit" type="button" onClick={()=>setPowered(v=>!v)} aria-pressed={powered} title="">
       <span className="octagon octagon-outer"/><span className="octagon octagon-mid"/><span className="octagon octagon-inner"/><span className="octagon octagon-core"/>
       <svg className="reactor-energy-rails" viewBox="0 0 420 420" preserveAspectRatio="none" aria-hidden="true">
         <defs>
