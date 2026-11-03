@@ -187,7 +187,9 @@ function AboutSection() {
           <div className="about-panel-label"><Icon name="code" size={17}/> // WHO AM I?</div>
           <h3>Xin chào, mình là <strong>{profile.name}</strong></h3>
           <p>{profile.longIntro}</p>
-          <p>Mục tiêu của mình là kết hợp khả năng phát triển ứng dụng đa tầng với nền tảng Backend vững chắc.</p>
+          <p>Mình định hướng phát triển theo Full-stack Developer, mong muốn nâng cao khả năng xây dựng ứng dụng hoàn chỉnh, kết nối Frontend và Backend, thiết kế REST API và xử lý các nghiệp vụ thực tế.
+
+Mục tiêu của mình là trở thành một Full-stack Developer có nền tảng vững chắc, đặc biệt chuyên sâu về Backend, hướng đến việc xây dựng những hệ thống hiệu quả, ổn định và dễ mở rộng.</p>
           <div className="about-mini-tags"><span>JAVA / SPRING BOOT</span><span>REACT / TYPESCRIPT</span><span>DATABASE</span><span>REST API</span></div>
           {/* <div className="about-cv-row"><span><Icon name="terminal" size={16}/> CV / RESUME</span>{profile.cv ? <a className="about-cv-btn" href={profile.cv} target="_blank" rel="noreferrer">Xem CV <Icon name="external" size={15}/></a> : <span className="about-cv-pending">Chưa thêm file CV — cập nhật trong profile.ts</span>}</div> */}
         </article>
